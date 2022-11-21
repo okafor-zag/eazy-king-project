@@ -18,3 +18,14 @@ span{
     font-style: oblique;
     text-shadow: 2px 2px 4px #000000;
 }
+
+
+@media screen and (max-width: 510px) {
+    img{
+        width: 150px;
+    }
+
+    span{
+        font-size: 25px;
+    }
+}

@@ -379,6 +379,112 @@ function Display() {
                   12:00AM - 6PM
                 </label>
                 </div>
+
+                <div className="radio">
+                <h2>SATURDAY</h2>
+                <label>
+                  {""}
+                  <input
+                    type="radio"
+                    name="dayTime"
+                    value="saturday 7:30AM - 3:00PM"
+                    // checked={values.Time}
+                    onChange={onValue}
+                    required
+                  />
+                  7:30AM - 3:00PM
+                </label>
+                <label>
+                  {" "}
+                  <input
+                    type="radio"
+                    name="dayTime"
+                    value="saturday 8:30AM - 4PM"
+                    // checked={values.Time}
+                    onChange={onValue}
+                    required
+                  />
+                  8:30AM - 4PM
+                </label>
+                <label>
+                  {" "}
+                  <input
+                    type="radio"
+                    name="dayTime"
+                    value="saturday 11:00AM - 5PM"
+                    // checked={values.Time}
+                    onChange={onValue}
+                    required
+                  />
+                  11:00AM - 5PM
+                </label>
+                <label>
+                  {" "}
+                  <input
+                    type="radio"
+                    name="dayTime"
+                    value="saturday 12:00AM - 6PM"
+                    // checked={values.Time}
+                    onChange={onValue}
+                    required
+                  />
+                  12:00AM - 6PM
+                </label>
+              </div>
+
+              <div className="radio">
+                <h2>SUNDAY</h2>
+                <label>
+                  {""}
+                  <input
+                    type="radio"
+                    name="dayTime"
+                    value="sunday 7:30AM - 3:00PM"
+                    // checked={values.Time}
+                    onChange={onValue}
+                    required
+                  />
+                  7:30AM - 3:00PM
+                </label>
+                <label>
+                  {" "}
+                  <input
+                    type="radio"
+                    name="dayTime"
+                    value="sunday 8:30AM - 4PM"
+                    // checked={values.Time}
+                    onChange={onValue}
+                    required
+                  />
+                  8:30AM - 4PM
+                </label>
+                <label>
+                  {" "}
+                  <input
+                    type="radio"
+                    name="dayTime"
+                    value="sunday 11:00AM - 5PM"
+                    // checked={values.Time}
+                    onChange={onValue}
+                    required
+                  />
+                  11:00AM - 5PM
+                </label>
+                <label>
+                  {" "}
+                  <input
+                    type="radio"
+                    name="dayTime"
+                    value="sunday 12:00AM - 6PM"
+                    // checked={values.Time}
+                    onChange={onValue}
+                    required
+                  />
+                  12:00AM - 6PM
+                </label>
+              </div>
+
+
               </div>
             </section>
           </div>
